@@ -1,14 +1,15 @@
 
 import './App.css';
 import './index.css'
-import top from './components/top/top';
+import Top from './components/top/Top';
+import Card from './components/card/Card';
 
 function App() {
   return (
-    <>
-      <top />
-
-    </>
+  <>
+      <Top />
+      {/* <Card/> */}
+      </>
   );
 }
 

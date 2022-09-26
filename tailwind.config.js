@@ -14,6 +14,10 @@ module.exports = {
 
     },
 
+    container: {
+      padding:'10.63rem'
+    },
+
     extend: {},
   },
   plugins: [],
