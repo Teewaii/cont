@@ -14,12 +14,13 @@ module.exports = {
 
     },
 
-    container: {
+   container: {
       padding:'10.63rem',
-     center: true,
-    },
+       center: true,    
+      },
+   
 
     extend: {},
   },
-  plugins: [],
+  
 }
