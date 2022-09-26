@@ -3,7 +3,7 @@ import logo from '../../img/Logo.svg'
 
 export default function top() {
     return (
-        <div className=' px-[10.6rem] lg:px-[6rem] py-[33px] flex justify-between items-center'>
+        <div className=' xl:px-[10.6rem] lg:px-[6rem] py-[33px] flex justify-between items-center'>
             <div className="block w-[234px] pr[328.5px]">
                 <img src={logo} alt="" />
             </div>
