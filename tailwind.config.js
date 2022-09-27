@@ -16,7 +16,7 @@ module.exports = {
     },
 
     backgroundImage: {
-      
+      'hero-bg': "url('C:/Users/User/Documents/GitHub/cont/src/img/mg.jpg')"
     },
 
     fontWeight: {
@@ -31,6 +31,11 @@ module.exports = {
       extrabold: 800,
       'extra-bold': 800,
       black: 900,
+    },
+
+    fontFamily: {
+      'poppins': ['Poppins', 'system-ui'],
+
     },
 
     container: {
