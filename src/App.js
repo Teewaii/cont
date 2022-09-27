@@ -2,13 +2,17 @@
 import './App.css';
 import './index.css'
 import Top from './components/top/Top';
-import Card from './components/card/Card';
+import Nav from './components/nav/Nav';
+import Auditing from './components/auditing/Auditing';
+import Main from './components/main/Main';
 
 function App() {
   return (
     <>
       <Top />
-      <Card />
+      <Nav />
+      <Auditing/>
+      <Main/>
     </>
   );
 }
