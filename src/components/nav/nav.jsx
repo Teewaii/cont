@@ -12,7 +12,7 @@ export default function Nav() {
                 </ul>
             </div>
 
-            <div className="b border-l-[1px] border-r-[1px] h-[60px] flex items-center justify-center cursor-pointer border-grey100 px-[22px]  hover:bg-grey100 hover:ease-in duration-300 share">
+            <div className="b border-l-[1px] border-r-[1px] h-[60px] flex items-center justify-center cursor-pointer border-grey100 px-[22px]  hover:bg-grey100 hover:ease-in duration-150 share">
                 <img className='w-[14px] h-[16px]' src={share} alt="" />
             </div>
         </div>
