@@ -1,10 +1,13 @@
 import React from 'react'
 import headShot from '../../img/headshot.svg';
 import pin from '../../img/attache.svg';
+import Meeting from '../meeting/Meeting';
+
 export default function
     () {
     return (
-        <div className='card flex-[0.7] px-[18px] border-[1px] border-grey100 rounded-[5px] w-[470px] min-h-[398px]'>
+        <div className="chatContainer flex flex-col items-center">
+        <div className='card px-[18px]  border-[1px] border-grey100 rounded-[5px] min-w-[470px]  mb-[20px]'>
           <div className="head flex  justify-between items-center mt-[18px] mb-[63px] ">
           <div className="user flex gap-[6px]">
             <div className="shot">
@@ -53,7 +56,9 @@ className='flex my-[20px]  w-[100%] '
         >Send
         </button>
         </form>
-
+        
+        </div>
+        <Meeting/>
         </div>
     )
 }

@@ -8,7 +8,7 @@ import shortlist from '../../img/shortlist.svg'
 export default function Card() {
     return (
 
-        <div className="flex flex-col flex-[1] justify-end h-[20rem] bg-hero-bg bg-no-repeat bg-contain border-[1px] relative border-grey100 rounded-[5px]">
+        <div className="flex flex-col justify-end h-[20rem] min-w-[600px] bg-hero-bg bg-no-repeat bg-contain border-[1px] relative border-grey100 rounded-[5px]">
             {/* <img class='min-w-[600px]' src={hero} alt="card-hero-image" /> */}
 
             <div className="profile flex justify-end ">
@@ -38,10 +38,6 @@ export default function Card() {
 
                     </div>                   
                 </div>
-
-                
-                
-
             </div>
         </div>
     )
