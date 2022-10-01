@@ -19,6 +19,7 @@ module.exports = {
     backgroundImage: {
       // 'hero-bg': "url('C:/Users/Pc/Documents/GitHub/cont/cont-msg/src/img/mg.jpg')"
       'hero-bg': "url('C:/Users/User/Documents/GitHub/cont/src/img/mg.jpg')"
+    
     },
 
     fontWeight: {
