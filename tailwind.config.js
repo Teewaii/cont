@@ -42,7 +42,13 @@ module.exports = {
     },
 
     container: {
-      // padding: '10.63rem',
+      padding: {
+        DEFAULT: '2rem',
+        sm: '2.5rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
       center: true,
     },
 

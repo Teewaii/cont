@@ -6,7 +6,7 @@ import About from '../about/About';
 
 export default function Main() {
   return (
-    <div className='xl:px-[10.6rem] lg:px-[6rem] flex gap-[30px] justify-between'>
+    <div className='main container flex gap-[30px] justify-between'>
    <div className="left flex flex-col flex-1">
      <Card />
      <About/>
