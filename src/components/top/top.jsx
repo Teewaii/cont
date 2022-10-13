@@ -6,7 +6,7 @@ import hamburger from '../../img/toggle-icon.svg';
 
 export default function top({toggle,toggleMenu}) {
     return (
-        <div className=''>
+        <div className='relative'>
            
            <div className="bucket container py-[33px] flex justify-between items-center">
             <div className=" 
@@ -37,6 +37,7 @@ export default function top({toggle,toggleMenu}) {
                 <img className='w-full cursor-pointer' src={hamburger} alt="" />
             </div>
             </div>
+        
         </div>
     )
 }
