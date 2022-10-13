@@ -6,13 +6,13 @@ import About from '../about/About';
 
 export default function Main() {
   return (
-    <div className='main container flex gap-[30px] justify-between'>
-   <div className="left flex flex-col flex-1">
+    <div className='main container xl:flex lg:gap-[30px] xl:justify-between'>
+   <div className="left flex flex-col xl:flex-1">
      <Card />
      <About/>
      </div>
      <div className="chatt">
-      <Chat className='flex-[0.8]' />
+      <Chat className='xl:flex-[0.7]' />
       </div>
     </div>
   )

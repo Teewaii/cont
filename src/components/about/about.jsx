@@ -50,7 +50,8 @@ export default function About() {
 
     </div>
  <div className=' border-b-[1px] border-grey100 pb-[20px]'>
-    <div className="About w-[470px]">
+    <div className="About 
+    lg:w-[470px]">
         <h1 
         className="title text-[21px] font-semibold text-grey-header mb-[20px]">
         About the seller

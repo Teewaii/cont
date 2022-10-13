@@ -7,10 +7,18 @@ export default function Nav() {
           <div className="bucket container flex items-center justify-between ">
             <div className="navLink">
                 <ul className='hidden py-[19.5px] lg:flex gap-[40px] '>
-                    <li className='text-[14px] font-medium active:font-bold text-grey-header'><a href="#">Overview</a></li>
-                    <li className='text-[14px] font-medium active:font-bold text-grey-header'><a href="#">Description</a></li>
-                    <li className='text-[14px] font-medium active:font-bold text-grey-header'><a href="#">About the seller</a></li>
-                    <li className='text-[14px] font-medium active:font-bold text-grey-header'><a href="#">Order details</a></li>
+                    <li className='text-[14px] font-medium active:font-bold text-grey-header first-letter 
+                    
+                    '><a className=' lg:focus:border-b-4  lg:focus:border-blue focus:ease-in-out duration-150 lg:py-[18px]' href="#">Overview</a></li>
+                    <li className='text-[14px] font-medium active:font-bold text-grey-header first-letter 
+
+                    '><a className='lg:focus:border-b-4  lg:focus:border-blue focus:ease-in-out duration-150 lg:py-[18px]' href="#">Description</a></li>
+                    <li className='text-[14px] font-medium active:font-bold text-grey-header first-letter 
+
+                    '><a className='lg:focus:border-b-4  lg:focus:border-blue focus:ease-in-out duration-150 lg:py-[18px]' href="#">About the seller</a></li>
+                    <li className='text-[14px] font-medium active:font-bold text-grey-header first-letter 
+
+                    '><a className='lg:focus:border-b-4  lg:focus:border-blue focus:ease-in-out duration-150 lg:py-[18px]' href="#">Order details</a></li>
                 </ul>
             </div>
          
