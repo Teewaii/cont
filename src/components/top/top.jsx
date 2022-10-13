@@ -1,10 +1,10 @@
 import React from 'react'
 import logo from '../../img/Logo.svg';
 import mobileLogo from '../../img/logo-mobile.svg';
-import toggle from '../../img/toggle-icon.svg';
+import hamburger from '../../img/toggle-icon.svg';
 
 
-export default function top() {
+export default function top({toggle,toggleMenu}) {
     return (
         <div className=''>
            
@@ -33,8 +33,8 @@ export default function top() {
                     </button>
                 </div>
             </div>
-            <div className="menu-icon w-[24px] h-[20px] lg:hidden">
-                <img className='w-full cursor-pointer' src={toggle} alt="" />
+            <div className="menu-icon w-[24px] h-[20px] lg:hidden" onClick={toggleMenu}>
+                <img className='w-full cursor-pointer' src={hamburger} alt="" />
             </div>
             </div>
         </div>

@@ -13,7 +13,7 @@ export default function Card() {
      
         '>
             <div className="hero  bg-hero-bg bg-no-repeat bg-cover min-h-[82px] 
-            
+            bg:rounded-4
             lg:min-h-[280px]">
                 {/* <img className='object-fill w-[850px] ' src={hero} alt="" /> */}
             </div>
@@ -24,9 +24,9 @@ export default function Card() {
                     lg:top-0 lg:relative lg:right-0
                     ">
                         <img
-                            className='rounded-full border-[5px] border-[white]  w-[76px] h-[76px] 
+                            className='rounded-full border-[4px] border-[white]  w-[76px] h-[76px] 
                             
-                            lg:w-[150px] lg:h-[150px] lg:ml-[20px] ' src={headShot} alt="" />
+                            lg:w-[150px] lg:h-[150px] lg:ml-[20px] lg:border-[5px]' src={headShot} alt="" />
                     </div>
                     <div className=' flex flex-col items-start justify-center gap-[20px]
                     mt-[30px] ml-[17px] lg:mt-0 lg:ml-[0]
@@ -35,11 +35,13 @@ export default function Card() {
                             <h1 className="name text-[18px] text-grey-header font-[800] 
                             lg:text-[21px]
                             ">Carlos Cruz</h1>
-                            <span className='text-[10px] text-grey300
+                            <span className='text-[11px] text-grey300
                             lg:text-[12px]
                             '>Health & Safety and Food Safety auditor </span>
                         </div>
-                        <p className='text-[12px] text-grey300 flex items-center justify-center  '><span className='inline-block mr-[10px]'>
+                        <p className='text-[11px] text-grey300 flex items-center justify-center 
+                        lg:text-[12px]
+                        '><span className='inline-block mr-[10px]'>
                             <img src={location} alt="location" /></span>Lisbon, Portugal</p>
                     </div>
                 </div>

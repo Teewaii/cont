@@ -8,15 +8,17 @@ export default function About() {
     
     <div className="AboutCont border-b-[1px] border-grey100 pb-[20px] ">
     <div 
-    className='flex flex-col gap-[30px] mt-[60px]'
+    className='flex flex-col gap-[30px]  mt-[50px]
+    lg:mt-[60px]'
     >
         <h1 
-        className="title tracking-[0.01em] text-[28px] text-grey-header font-bold leading-[36px] pr-[30px]">
+        className="title tracking-[0.01em] text-[28px] text-grey-header font-bold leading-[36px] 
+        lg:pr-[30px]">
         I conduct supplier audits across multiple management systems
         </h1>
         <p 
         className="body text-grey-body text-[13px] leading-[21px] 
-        tracking-[0.01em] font-medium pr-[140px] border-b-[1px] border-grey100 pb-[30px]"
+        tracking-[0.01em] font-medium lg:pr-[140px] border-b-[1px] border-grey100 pb-[30px]"
         >Second and third-party services for Quality, Environmental, Occupational Health & Safety, Food Safety, Social Responsibility and Facility Management Systems.</p>
     </div>
 
@@ -83,7 +85,9 @@ export default function About() {
        </div>
     </div>
     </div>       
-    <div className="desc pt-[20px] whitespace-pre-line text-[13px] text-grey-body mb-[100px] leading-[21px] trakcing-[0.01em]">
+    <div className="desc pt-[20px] whitespace-pre-line text-[13px] mb-[70px]  text-grey-body leading-[21px] trakcing-[0.01em]
+    lg:mb-[100px] 
+    ">
     <p 
     className='text-justify '>A professional with more than 12 years of professional experience in petrochemical, manufacturing, construction, consultancy & customer services industry and trainings, strong grip on documentation, implementation, continual improvement & auditing of ISO 45001, ISO 14001, ISO 9001, ISO 22000 and Six Sigma Methodology in the organizations.
     <br/><br/>

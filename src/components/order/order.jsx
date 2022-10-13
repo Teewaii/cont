@@ -13,7 +13,7 @@ export default function Order() {
             </h1>
             <div
                 className="order-summary  border-grey100 border-[1px] p-[20px] rounded-[5px]
-                
+              
                 lg:w-[600px]
                 ">
                 <h1 className='text-[14px] text-grey-header mb-[20px] font-semibold'>ISO Auditor</h1>
@@ -32,14 +32,15 @@ export default function Order() {
                     </ul>
                 </div>
                 <form className='pt-[10px]' action="">
-                    <div className="audit-options flex flex-col gap-[20px] justify-between items-center border-b border-grey100 
+                    <div className="audit-options flex flex-col items-start gap-[20px] justify-between lg:items-center border-b border-grey100 
                     pb-[10px] md:flex-row">
                         <h1 className='text-[13px] text-grey-header flex-1 font-semibold mt-[20px]
+                        
                         lg:mt-0'>Type of audit (remote/in-person)</h1>
 
-                        <div className="opt-fit flex-1 relative border-[1px] border-grey300 mb-[20px] 
-                         rounded-[5px] pl-[10px] py-[12px] w-[100%]
-                         lg:mt-0 ">
+                        <div className="opt-fit flex-1 relative border-[1px] border-grey300 
+                         rounded-[5px] pl-[10px] py-[12px] w-[100%] mb-[20px]
+                         lg:mb-0 ">
                             <select className=' appearance-none text-[13px] text-grey-header w-[100%]  outline-none font-medium
                             
                             ' name='audit-options' id='audit'>
