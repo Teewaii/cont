@@ -6,7 +6,7 @@ import Meeting from '../meeting/Meeting';
 export default function
     () {
     return (
-        <div className=" chatContainer xl:flex flex-col items-center">
+        <div className="hidden chatContainer xl:flex flex-col items-center">
             <div className='card px-[18px]  border-[1px] border-grey100 rounded-[5px] max-w-[800px] lg:min-w-[470px]  mb-[20px]'>
                 <div className="head flex  justify-between items-center mt-[18px] mb-[63px] ">
                     <div className="user flex items-center gap-[6px]">
