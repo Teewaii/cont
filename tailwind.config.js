@@ -13,13 +13,14 @@ module.exports = {
       'grey-header': '#3B4452',
       'grey-body': '#7F8C8D',
       'grey-blue': '#B5CAD3',
+      'dark-blue': '#1B1335',
 
     },
 
     backgroundImage: {
       // 'hero-bg': "url('C:/Users/Pc/Documents/GitHub/cont/cont-msg/src/img/mg.jpg')"
       'hero-bg': "url('../src/img/mg.jpg')"
-    
+
     },
 
     fontWeight: {
@@ -47,7 +48,7 @@ module.exports = {
         sm: '2.5rem',
         lg: '4rem',
         xl: '5rem',
-       
+
       },
       center: true,
     },
