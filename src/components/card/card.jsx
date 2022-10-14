@@ -30,7 +30,7 @@ export default function Card() {
                             md:w-[150px] md:h-[150px] md:ml-[20px] md:border-[5px]' src={headShot} alt="" />
                     </div>
                     <div className=' flex flex-col items-start justify-center gap-[20px]
-                    mt-[30px] ml-[17px] md:mt-0 md:ml-[0]
+                    mt-[55px] ml-[17px] md:mt-0 md:ml-[0]
                    '>
                         <div className="info flex flex-col gap-[4px] mt-4 ">
                             <h1 className="name text-[18px] text-grey-header font-[800] 
