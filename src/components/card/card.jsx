@@ -47,8 +47,8 @@ export default function Card() {
                     </div>
                 </div>
 
-                <div className='flex flex-col justify-center gap-[20px]
-                 mt-[30px] lg:mt-0
+                <div className='shortlist-contflex flex-col justify-center gap-[20px]
+                 mt-[75px] lg:mt-0
                 
                 ' >
                     <p className="shortlist  flex bg-grey100 items-center cursor-pointer text-[10px] px-[10px] py-[18px] rounded-[3px] font-bold text-grey-header
